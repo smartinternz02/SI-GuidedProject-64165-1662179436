@@ -3,12 +3,14 @@ Virtual Internship - Android Application Development Using Kotlin
 
 # Mind_Grocery_App|Project2
 
-submitted by: ASIK ALI KHAN
+Submitted by: ASIK ALI KHAN
+
 Application id - SPS_APL_20220072278
+
 Developer Profile -
 Https://G.Dev/Asikalikhan_android_developer
 
-# User Stories
+# Application Doc
 
 The following required functionality is completed:
 
