@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp"
+    android:backgroundTint="@color/purple_700">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="4dp"
+            android:weightSum="3"
+            android:layout_marginStart="8dp"
+            android:id="@+id/layout">
+
+            <TextView
+                android:id="@+id/textViewItemName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="20sp"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:text="@string/item_name"
+                />
+
+            <TextView
+                android:id="@+id/textViewQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:text="@string/quantity" />
+
+            <TextView
+                android:id="@+id/textViewRate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="@string/rate" />
+
+            <ImageView
+                android:id="@+id/imageViewDelete"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                app:srcCompat="@drawable/ic_baseline_delete_24" />
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/layout"
+            android:layout_marginStart="8dp"
+            android:weightSum="2"
+            android:paddingBottom="4dp">
+
+
+            <TextView
+                android:id="@+id/textViewTotalCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="@string/total_cost" />
+
+            <TextView
+                android:id="@+id/textViewAmount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginEnd="35dp"
+                android:text="@string/amount" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</androidx.cardview.widget.CardView>
