@@ -18,11 +18,13 @@ The following required functionality is completed:
 
 ☑ User can persist grocery items and retrieve them properly on app restart.
  
-☑ User can add new grocery item with dialog box.
+☑ User can Add new grocery item with dialog box.
+
+☑ User can Edit new grocery item with dialog box.
  
 ☑ User can delete an item by clicking on the delete button.
  
-☑ User can successfully add and remove items from the grocery list.
+☑ User can successfully modify and remove items from the grocery list/cart.
  
  
 The following optional features are implemented:
@@ -33,12 +35,19 @@ The following optional features are implemented:
 
 ☑ Toast shows when the user try to save with no data filled.
 
+☑ CheckBox is provided in the item which helps user in two ways.
+
+☑ Firstly, it marks the item as already dictated.
+
+☑ Secondly, the sum of all checked items in cart is shown as the TOTAL CHECKED COST.
+
+☑ The sum of all items in the cart is shown as the TOTAL CART COST.
+
 
 
 # Screenshots of app
 
-![MindGroceryAppScreenshot](https://user-images.githubusercontent.com/108247266/190859333-596b6e5e-4938-4f60-a0f0-b5328a4bfb20.png)
-
+![ScreenShotsMindGrocery](https://user-images.githubusercontent.com/108247266/190911303-4deb3c26-71e4-4b43-b1a6-7a816beebd6b.png)
 
 
 
@@ -47,7 +56,8 @@ The following optional features are implemented:
 # Video Walkthrough 
 
 
-https://user-images.githubusercontent.com/108247266/190859509-44c387ff-ddbb-4631-96cf-92c03020c8b8.mp4
+
+https://user-images.githubusercontent.com/108247266/190911342-25c2e461-89a2-4edd-ad69-71be23e16a87.mp4
 
 
 
