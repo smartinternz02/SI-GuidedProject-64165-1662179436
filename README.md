@@ -12,6 +12,12 @@ Application id - SPS_APL_20220072278
 Developer Profile -
 Https://G.Dev/Asikalikhan_android_developer
 
+
+#App Description
+
+As we can't remember everything, users frequently forget to buy the things they want to buy. However, with the assistance of this app, you can make a list of the groceries you intend to buy so that you don't forget anything and also manage grocery budget.
+
+
 # Application Doc
 
 The following required functionality is completed:
@@ -25,6 +31,7 @@ The following required functionality is completed:
 ☑ User can delete an item by clicking on the delete button.
  
 ☑ User can successfully modify and remove items from the grocery list/cart.
+ 
  
  
 The following optional features are implemented:
