@@ -20,7 +20,7 @@ The following required functionality is completed:
  
 ☑ User can Add new grocery item with dialog box.
 
-☑ User can Edit new grocery item with dialog box.
+☑ User can Edit old grocery item with dialog box.
  
 ☑ User can delete an item by clicking on the delete button.
  
