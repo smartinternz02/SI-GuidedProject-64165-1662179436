@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@color/purple_700"
+      >
+
+      <TextView
+          android:id="@+id/textViewDialogTitle"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="@string/add_items_to_cart"
+          android:gravity="center"
+          android:textAllCaps="false"
+          android:textStyle="bold"
+          android:layout_centerHorizontal="true"
+          android:padding="4dp"
+          android:textAppearance="@style/TextAppearance.Material3.BodyLarge"/>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/inputLayoutItemName"
+          android:padding="4dp"
+          android:hint="@string/enter_item_name"
+          android:layout_below="@+id/textViewDialogTitle">
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="text"
+              android:id="@+id/editTextItemName"
+              />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/inputLayoutItemQuantity"
+          android:padding="4dp"
+          android:hint="@string/enter_item_quantity"
+          android:layout_below="@+id/inputLayoutItemName"
+          >
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="number"
+              android:id="@+id/editTextItemQuantity"
+               />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <com.google.android.material.textfield.TextInputLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/inputLayoutItemRate"
+          android:padding="4dp"
+          android:hint="@string/enter_item_rate"
+          android:layout_below="@+id/inputLayoutItemQuantity"
+          >
+
+          <com.google.android.material.textfield.TextInputEditText
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:inputType="number"
+              android:id="@+id/editTextItemRate"
+              />
+      </com.google.android.material.textfield.TextInputLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+          android:weightSum="2"
+          android:layout_below="@+id/inputLayoutItemRate">
+
+          <Button
+              android:id="@+id/buttonCancel"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_weight="1"
+              android:layout_margin="8dp"
+              android:text="@string/cancel" />
+
+          <Button
+              android:id="@+id/buttonAdd"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginEnd="20dp"
+              android:layout_weight="1"
+              android:layout_margin="8dp"
+              android:text="@string/add" />
+      </LinearLayout>
+
+  </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
