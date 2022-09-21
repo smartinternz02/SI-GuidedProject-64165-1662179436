@@ -35,8 +35,20 @@ The following required functionality is completed:
  
  
 The following optional features are implemented:
+
+☑ User can create multiple grocery list.
+
+☑ User can view items of respective grocery list in Grocery Screen.
+
+☑ ReadOnly Mode restricts edit and delete of items and the list itself.
+
+☑ Budget Mode collects all grocery item from total lists present into one place as Combined Grocery List.
+
+☑ About is briefly explained to the user with a Custom Dialog.
  
 ☑ Persist the grocery items into RoomDatabase instead of a text file.
+
+☑ Persist the setting into private text file.
  
 ☑ Improve style of the grocery items in the list using a custom adapter.
 
@@ -50,11 +62,12 @@ The following optional features are implemented:
 
 ☑ The sum of all items in the cart is shown as the TOTAL CART COST.
 
+☑ Combined Grocery list helps to manage items at one place which helps easy corrrection and ultimately manage user's grocery budget. 
 
 
 # Screenshots of app
 
-![ScreenShotsMindGrocery](https://user-images.githubusercontent.com/108247266/190911303-4deb3c26-71e4-4b43-b1a6-7a816beebd6b.png)
+![SCREENSHOTS_MindGrocery](https://user-images.githubusercontent.com/108247266/191489221-5a360691-f62b-489f-860a-edf301aebaee.png)
 
 
 
@@ -64,7 +77,10 @@ The following optional features are implemented:
 
 
 
-https://user-images.githubusercontent.com/108247266/190911342-25c2e461-89a2-4edd-ad69-71be23e16a87.mp4
+
+https://user-images.githubusercontent.com/108247266/191489342-e34aa3f3-5684-4270-9bf9-2a3d8d13bb18.mp4
+
+
 
 
 
